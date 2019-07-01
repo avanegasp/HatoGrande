@@ -604,7 +604,7 @@ ul.list-o {
 
 /* Blocks */
 .e-block {
-  padding: 130px 0 130px 0; }
+  padding: 80px 0 20px 0; }
 
 .e-block-ins {
   padding: 100px 0 100px 0; }
@@ -2539,7 +2539,7 @@ figure {
     opacity: 1.0; }
   figure figcaption {
     padding: 1.0em;
-    color: #303030;
+    color: #ffffff;
     text-transform: uppercase;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden; }
@@ -2643,14 +2643,14 @@ figure.effect-goliath h3 {
     content: " ";
     bottom: -5px;
     width: 0;
-    border-bottom: 1px solid #5d5d5d;
+    border-bottom: 1px solid red;
     -webkit-transition: all 0.9s;
     -moz-transition: all 0.9s;
     transition: all 0.9s;
     transition-delay: .2s; }
 figure.effect-goliath p {
   margin-top: 7px;
-  color: #303030;
+  color: #ffffff;
   text-transform: none;
   font-family: "Raleway", sans-serif;
   font-size: 13px;
@@ -2977,8 +2977,8 @@ footer {
     padding: 0px;
     margin-right: 8px; }
     .follow ul li i, .follow ul li i::before {
-      color: #c1c1c1;
-      font-size: 24px !important;
+      color: red;
+      font-size: 44px !important;
       margin-left: 0 !important;
       line-height: 24px;
       transition: all 0.35s ease-in-out;
@@ -2989,7 +2989,7 @@ footer {
     .follow ul li a {
       text-decoration: none !important; }
       .follow ul li a:hover i::before {
-        color: #737373; }
+        color: green; }
 
 /* Dark Color */
 .dark .follow ul li a i, .dark .follow ul li a i::before {
